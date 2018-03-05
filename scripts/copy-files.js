@@ -58,7 +58,7 @@ function createPackageFile() {
     } = packageData;
 
     const minimalPackage = {
-      name: 'material-ui-scrollable-tabs',
+      name: '@makeomatic/material-ui-scrollable-tabs',
       author,
       version,
       description,
