@@ -142,6 +142,7 @@ class Tabs extends Component {
 
   componentWillReceiveProps({initialSelectedIndex}) {
     if (initialSelectedIndex !== this.props.initialSelectedIndex) {
+      this.scrollSelectedIntoView(initialSelectedIndex);
       this.updateSelectedIndexState(initialSelectedIndex);
     }
   }
